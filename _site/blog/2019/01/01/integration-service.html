@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome to Super Programmer!</title>
-  <meta name="description" content="It’s time to work your programming chops to be the most effective coding machine you see romanticized in movies and called out in every job posting looking f...">
+  <title>Simple Integration Service</title>
+  <meta name="description" content="Integrating software systems can be hard. If you’re just integrating two systems, you may write a script that takes data from your own source, formats it int...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://superprogrammer.com/blog/sticky/2019/01/01/welcome-to-super-programmer.html">
+  <link rel="canonical" href="http://superprogrammer.com/blog/2019/01/01/integration-service.html">
   <link rel="alternate" type="application/rss+xml" title="Super Programmer" href="http://superprogrammer.com/feed.xml">
 </head>
 
@@ -57,29 +57,43 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Welcome to Super Programmer!</h1>
-    <h3 class="post-subtitle" itemprop="tagline">Turning humans into super programmers</h3>
+    <h1 class="post-title" itemprop="name headline">Simple Integration Service</h1>
+    <h3 class="post-subtitle" itemprop="tagline">Harnessing TWIG</h3>
     <p class="post-meta"><time datetime="2019-01-01T12:01:00-05:00" itemprop="datePublished">Jan 1, 2019</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>It’s time to work your programming chops to be the most effective coding machine you see romanticized in movies and called out in every job posting looking for software engineers. It’s time to become Super Programmers.</p>
+    <p>Integrating software systems can be hard. If you’re just integrating two systems, you may write a script that takes data from your own source, formats it into the target sources schema, and makes some API call to insert the data into the target system. It could be a job the runs nightly or something more advanced that gets run anytime an insert or update event happens in your own system.  This is fine for two systems, but what if you need to integrate multiple systems, even an arbitrary number of systems of which you are not in control? You could hope that they share common standards about their data, and much of your work for one system could be reused for another, but that’s most likely a pipe dream. Different providers all follow different standards (if any) about what schema to use when storing their data. Even within a single vendor, you could have 100’s of clients that all have specific custom configurations within that system that make it non-standard. Anybody who works with clients that use Salesforce, for instance, will know about this. (Not picking on Salesforce here, they are just well known but many other providers offer these things) Managing these customizations in code gets messy fast when you have potentially thousands of clients all with little idiosyncrasies that you don’t really want to devote an entire class too.</p>
 
-<p><strong>Ego Check Time</strong>
-This isn’t about becoming some mythical programmer who can hack into the matrix, read binary, and flip bits using <a href="https://xkcd.com/378/">butterfly wings.</a></p>
+<p>Solving this problem in my professional career, I took inspiration from my work on email personalization software, and a concept that front-end software engineers were familiar with in Cascading Style Sheets. Enter the Twig templating engine. Using templates to define the specification of how to integrate the data, our code that did the work of pulling and pushing the data could be kept simple and reusable for multiple integrations. The cascading nature of Twig allowed the ability for clients to customize to their heart’s content without requiring duplicated code, or specifications. We were a Php organization and were already using Twig elsewhere in the code, so this choice made sense for us, but I’m sure there are many templating languages that have the necessary features to solve this problem.</p>
 
-<p>This also isn’t me declaring that I think I have super human programmer powers or that I’m any better, smarter, or more talented than the average software developer.</p>
+<p>Let’s get to some code examples.</p>
 
-<p>This blog is an aspiration. An endless pursuit of being better by giving (and hopefully receiving) practical advice on how to do what appears from the outside as super human with less effort. The best programmers are the lazy programmers; The ones that will when tasked with doing something that takes 5 minutes, instead take a few hours to learn bash scripting, find themselves in the weeds about the best way to handle a variable from the command line, wonder if this could be done better in python, realize you’ve gone way too far down this path and finally come back around to what you were trying to solve in the first place and automate that original task so you never have to manually do it again.</p>
+<p>Imagine we are a software company called Qaza systems, and we have a relational database with these tables and schema:</p>
 
-<p>Here we’ll learn what’s worth spending time on, where you’ll get the most gains as perceived from your team, your organization and your own workload so you can feel proud, accomplished, and not overwhelmed.</p>
+<p>Person
++———–+———–+———-+—————+
+| person_id | firstname | lastname |     email     |
++———–+———–+———-+—————+
+|         1 | Mike      | DeCosta  | md@email.com  |
+|         2 | Susan     | Smith    | ss@temp.com   |
++———–+———–+———-+—————+</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>Address
++———+——-+——-+———+———+——-+——-+
+| addr_id | addr1 | addr2 | country |  city   | state |  zip  |
++———+——-+——-+———+———+——-+——-+
+|       1 | 1st   | apt 1 | US      | Boston  |    MA | 02117 |
+|       2 | 2nd   |       | US      | Chicago |    IL | 60605 |
++———+——-+——-+———+———+——-+——-+</p>
 
+<p>Person_Address
++———–+———+——–+
+| person_id | addr_id |  type  |
++———–+———+——–+
+|         1 |       1 | OFFICE |
+|         2 |       2 | HOME   |
++———–+———+——–+</p>
 
   </div>
 
