@@ -71,29 +71,30 @@
 
 <p>Imagine we are a software company called Qaza systems, and we have a relational database with these tables and schema:</p>
 
-<p>Person
-+———–+———–+———-+—————+
+<figure class="highlight"><pre><code class="language-mysql" data-lang="mysql">Person
++-----------+-----------+----------+---------------+
 | person_id | firstname | lastname |     email     |
-+———–+———–+———-+—————+
++-----------+-----------+----------+---------------+
 |         1 | Mike      | DeCosta  | md@email.com  |
 |         2 | Susan     | Smith    | ss@temp.com   |
-+———–+———–+———-+—————+</p>
++-----------+-----------+----------+---------------+
 
-<p>Address
-+———+——-+——-+———+———+——-+——-+
+Address
++---------+-------+-------+---------+---------+-------+-------+
 | addr_id | addr1 | addr2 | country |  city   | state |  zip  |
-+———+——-+——-+———+———+——-+——-+
++---------+-------+-------+---------+---------+-------+-------+
 |       1 | 1st   | apt 1 | US      | Boston  |    MA | 02117 |
 |       2 | 2nd   |       | US      | Chicago |    IL | 60605 |
-+———+——-+——-+———+———+——-+——-+</p>
++---------+-------+-------+---------+---------+-------+-------+
 
-<p>Person_Address
-+———–+———+——–+
+Person_Address
++-----------+---------+--------+
 | person_id | addr_id |  type  |
-+———–+———+——–+
++-----------+---------+--------+
 |         1 |       1 | OFFICE |
 |         2 |       2 | HOME   |
-+———–+———+——–+</p>
++-----------+---------+--------+</code></pre></figure>
+
 
   </div>
 

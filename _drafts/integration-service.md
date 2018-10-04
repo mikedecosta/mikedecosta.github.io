@@ -15,6 +15,8 @@ Let's get to some code examples.
 
 Imagine we are a software company called Qaza systems, and we have a relational database with these tables and schema:
 
+{% highlight mysql %}
+
 Person
 +-----------+-----------+----------+---------------+
 | person_id | firstname | lastname |     email     |
@@ -38,3 +40,5 @@ Person_Address
 |         1 |       1 | OFFICE |
 |         2 |       2 | HOME   |
 +-----------+---------+--------+
+
+{% endhighlight %}

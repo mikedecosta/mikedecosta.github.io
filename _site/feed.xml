@@ -6,8 +6,8 @@
 </description>
     <link>http://superprogrammer.com/</link>
     <atom:link href="http://superprogrammer.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Oct 2018 10:22:46 -0400</pubDate>
-    <lastBuildDate>Thu, 04 Oct 2018 10:22:46 -0400</lastBuildDate>
+    <pubDate>Thu, 04 Oct 2018 15:32:12 -0400</pubDate>
+    <lastBuildDate>Thu, 04 Oct 2018 15:32:12 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -73,7 +73,7 @@ This isn’t about becoming some mythical programmer who can hack into the matri
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;“What’s the payroll dashboard link again?”&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;“Where are the 401k forms?”&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;“where are the docs for that external plug-in we wrote?”&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;“Where are the docs for that external plug-in we wrote?”&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;It’s an amazing resource for on-boarding new team members. Just point em to the go links page and it will have all the links that the team uses and push most used links to the top.&lt;/p&gt;
@@ -84,7 +84,7 @@ This isn’t about becoming some mythical programmer who can hack into the matri
 &lt;p&gt;Start to compartmentalize things you’re working on into different workspaces. It’s like having extra monitors that you can shove related stuff onto, and not worry about it when you’re not working on that part, but still need it open to switch to later.&lt;/p&gt;
 
 &lt;p&gt;Here is my current setup. I have 4 workspaces that I can easily switch to with hot-keys. Everything is contained in a virtual wrapped line of spaces. (going left to right 1, 2, 3, 4, 1, …)
-  1. Workspace 1 is my main working window. It keeps my main focus and what is mot important to get done.
+  1. Workspace 1 is my main working window. It keeps my main focus and what is most important to get done.
   2. Workspace 2 is some other side objective that I also am working on simultaneously. Maybe when workspace 1 is building, or tests are running.
   3. Workspace 3 usually ends up being &lt;a href=&quot;https://i.imgur.com/ELU1Vy7.jpg&quot;&gt;personal space&lt;/a&gt;
   4. Workspace 4 I use for my communication hub. It’s where I keep slack, my email, and anything directly related to those interactions.&lt;/p&gt;
@@ -140,29 +140,30 @@ This was my computer science 101 textbook and I think this is the ideal way to 
 
 &lt;p&gt;Imagine we are a software company called Qaza systems, and we have a relational database with these tables and schema:&lt;/p&gt;
 
-&lt;p&gt;Person
-+———–+———–+———-+—————+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-mysql&quot; data-lang=&quot;mysql&quot;&gt;Person
++-----------+-----------+----------+---------------+
 | person_id | firstname | lastname |     email     |
-+———–+———–+———-+—————+
++-----------+-----------+----------+---------------+
 |         1 | Mike      | DeCosta  | md@email.com  |
 |         2 | Susan     | Smith    | ss@temp.com   |
-+———–+———–+———-+—————+&lt;/p&gt;
++-----------+-----------+----------+---------------+
 
-&lt;p&gt;Address
-+———+——-+——-+———+———+——-+——-+
+Address
++---------+-------+-------+---------+---------+-------+-------+
 | addr_id | addr1 | addr2 | country |  city   | state |  zip  |
-+———+——-+——-+———+———+——-+——-+
++---------+-------+-------+---------+---------+-------+-------+
 |       1 | 1st   | apt 1 | US      | Boston  |    MA | 02117 |
 |       2 | 2nd   |       | US      | Chicago |    IL | 60605 |
-+———+——-+——-+———+———+——-+——-+&lt;/p&gt;
++---------+-------+-------+---------+---------+-------+-------+
 
-&lt;p&gt;Person_Address
-+———–+———+——–+
+Person_Address
++-----------+---------+--------+
 | person_id | addr_id |  type  |
-+———–+———+——–+
++-----------+---------+--------+
 |         1 |       1 | OFFICE |
 |         2 |       2 | HOME   |
-+———–+———+——–+&lt;/p&gt;
++-----------+---------+--------+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 </description>
         <pubDate>Tue, 01 Jan 2019 12:01:00 -0500</pubDate>
         <link>http://superprogrammer.com/blog/2019/01/01/integration-service.html</link>
