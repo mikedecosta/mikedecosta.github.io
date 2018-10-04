@@ -17,3 +17,5 @@ markdown: kramdown
 # Publish settings
 future: false
 show_drafts: false
+
+theme: jekyll-theme-hacker
