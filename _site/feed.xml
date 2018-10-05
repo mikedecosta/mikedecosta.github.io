@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Super Programmer</title>
-    <description>Become that mythical super programmer every organization wishes they had.
+    <title>Code Stronger</title>
+    <description>Start getting more out of your code with less effort. Start coding stronger.
 </description>
-    <link>http://superprogrammer.com/</link>
-    <atom:link href="http://superprogrammer.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Oct 2018 15:32:12 -0400</pubDate>
-    <lastBuildDate>Thu, 04 Oct 2018 15:32:12 -0400</lastBuildDate>
+    <link>http://codestronger.com/</link>
+    <atom:link href="http://codestronger.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 04 Oct 2018 20:10:13 -0400</pubDate>
+    <lastBuildDate>Thu, 04 Oct 2018 20:10:13 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Welcome to Super Programmer!</title>
-        <description>&lt;p&gt;It’s time to work your programming chops to be the most effective coding machine you see romanticized in movies and called out in every job posting looking for software engineers. It’s time to become Super Programmers.&lt;/p&gt;
+        <title>Welcome to Code Stronger!</title>
+        <description>&lt;p&gt;It’s time to work your programming chops to be the most effective coding machine you see romanticized in movies and called out in every job posting looking for software engineers. It’s time to code stronger.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Ego Check Time&lt;/strong&gt;
 This isn’t about becoming some mythical programmer who can hack into the matrix, read binary, and flip bits using &lt;a href=&quot;https://xkcd.com/378/&quot;&gt;butterfly wings.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This also isn’t me declaring that I think I have super human programmer powers or that I’m any better, smarter, or more talented than the average software developer.&lt;/p&gt;
+&lt;p&gt;This also isn’t me declaring that I think I am some amazing programmer or that I’m any better, smarter, or more talented than the average software developer.&lt;/p&gt;
 
 &lt;p&gt;This blog is an aspiration. An endless pursuit of being better by giving (and hopefully receiving) practical advice on how to do what appears from the outside as super human with less effort. The best programmers are the lazy programmers; The ones that will when tasked with doing something that takes 5 minutes, instead take a few hours to learn bash scripting, find themselves in the weeds about the best way to handle a variable from the command line, wonder if this could be done better in python, realize you’ve gone way too far down this path and finally come back around to what you were trying to solve in the first place and automate that original task so you never have to manually do it again.&lt;/p&gt;
 
@@ -31,8 +31,8 @@ This isn’t about becoming some mythical programmer who can hack into the matri
 
 </description>
         <pubDate>Tue, 01 Jan 2019 12:01:00 -0500</pubDate>
-        <link>http://superprogrammer.com/blog/sticky/2019/01/01/welcome-to-super-programmer.html</link>
-        <guid isPermaLink="true">http://superprogrammer.com/blog/sticky/2019/01/01/welcome-to-super-programmer.html</guid>
+        <link>http://codestronger.com/blog/sticky/2019/01/01/welcome-to-super-programmer.html</link>
+        <guid isPermaLink="true">http://codestronger.com/blog/sticky/2019/01/01/welcome-to-super-programmer.html</guid>
         
         <category>intro</category>
         
@@ -50,8 +50,8 @@ This isn’t about becoming some mythical programmer who can hack into the matri
         <description>
 </description>
         <pubDate>Tue, 01 Jan 2019 12:01:00 -0500</pubDate>
-        <link>http://superprogrammer.com/blog/2019/01/01/new-post.html</link>
-        <guid isPermaLink="true">http://superprogrammer.com/blog/2019/01/01/new-post.html</guid>
+        <link>http://codestronger.com/blog/2019/01/01/new-post.html</link>
+        <guid isPermaLink="true">http://codestronger.com/blog/2019/01/01/new-post.html</guid>
         
         
         <category>blog</category>
@@ -90,8 +90,8 @@ This isn’t about becoming some mythical programmer who can hack into the matri
   4. Workspace 4 I use for my communication hub. It’s where I keep slack, my email, and anything directly related to those interactions.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Jan 2019 12:01:00 -0500</pubDate>
-        <link>http://superprogrammer.com/blog/sticky/2019/01/01/list-tools.html</link>
-        <guid isPermaLink="true">http://superprogrammer.com/blog/sticky/2019/01/01/list-tools.html</guid>
+        <link>http://codestronger.com/blog/sticky/2019/01/01/list-tools.html</link>
+        <guid isPermaLink="true">http://codestronger.com/blog/sticky/2019/01/01/list-tools.html</guid>
         
         <category>list</category>
         
@@ -122,8 +122,8 @@ The software engineers bible. I recommend reading and rereading this book every
 This was my computer science 101 textbook and I think this is the ideal way to learn and approach software program design. This is the long road to becoming a programmer but if you have the time and patience, I would pick up this book first.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Jan 2019 12:01:00 -0500</pubDate>
-        <link>http://superprogrammer.com/blog/2019/01/01/list-books.html</link>
-        <guid isPermaLink="true">http://superprogrammer.com/blog/2019/01/01/list-books.html</guid>
+        <link>http://codestronger.com/blog/2019/01/01/list-books.html</link>
+        <guid isPermaLink="true">http://codestronger.com/blog/2019/01/01/list-books.html</guid>
         
         
         <category>blog</category>
@@ -166,8 +166,8 @@ Person_Address
 
 </description>
         <pubDate>Tue, 01 Jan 2019 12:01:00 -0500</pubDate>
-        <link>http://superprogrammer.com/blog/2019/01/01/integration-service.html</link>
-        <guid isPermaLink="true">http://superprogrammer.com/blog/2019/01/01/integration-service.html</guid>
+        <link>http://codestronger.com/blog/2019/01/01/integration-service.html</link>
+        <guid isPermaLink="true">http://codestronger.com/blog/2019/01/01/integration-service.html</guid>
         
         
         <category>blog</category>
@@ -284,8 +284,8 @@ Person_Address
 
 </description>
         <pubDate>Tue, 01 Jan 2019 12:01:00 -0500</pubDate>
-        <link>http://superprogrammer.com/blog/2019/01/01/book-review-clean-code.html</link>
-        <guid isPermaLink="true">http://superprogrammer.com/blog/2019/01/01/book-review-clean-code.html</guid>
+        <link>http://codestronger.com/blog/2019/01/01/book-review-clean-code.html</link>
+        <guid isPermaLink="true">http://codestronger.com/blog/2019/01/01/book-review-clean-code.html</guid>
         
         
         <category>blog</category>
