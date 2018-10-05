@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Super Programmer Book Club"
+title:  "Code Stronger Book Club"
 subtitle: "Books that every software engineer should read at least once"
 date:   2019-01-01 13:01:00 -0400
 categories: [blog]

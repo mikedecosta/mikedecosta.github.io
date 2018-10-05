@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Super Programmer Utility Belt"
+title:  "Code Stronger Necessary Tools"
 subtitle: "Tools that can maximize efficiency"
 date:   2019-01-01 13:01:00 -0400
 categories: [blog, sticky]
