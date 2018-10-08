@@ -16,7 +16,7 @@ Taking a page out of the book by John Sonmez, I'll be curating my own list of re
 
 ## Clean Code
 *A Handbook of Agile Software Craftsmanship*  
-The software engineers bible. I recommend reading and rereading this book every couple years to reinforce the concepts contained within. You can see my full book review here:
+I recommend reading and rereading this book every couple years to reinforce the concepts contained within. You can see my full book review here:
 
 ## How to Design Programs
 *An introduction to Programming and Computing*  

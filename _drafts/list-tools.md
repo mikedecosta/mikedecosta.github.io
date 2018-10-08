@@ -7,12 +7,13 @@ categories: [blog, sticky]
 tags: [list]
 ---
 
-This is my curated list of tools that I use to get the most out of my work.
+This is my curated list of tools that I use to get the most out of my time.
 
 * [go/links](#go/golinks)
 * [multiple workspaces](#multiple-workspaces)
+* [LastPass](#last-pass)
 
-## go/links - https://www.golinks.io/
+## [go/links](https://www.golinks.io/)
 Go links is great for any organization that wants to share resources. If you have people constantly asking things like
 
   * *"What's the payroll dashboard link again?"*
@@ -31,3 +32,6 @@ Here is my current setup. I have 4 workspaces that I can easily switch to with h
   2. Workspace 2 is some other side objective that I also am working on simultaneously. Maybe when workspace 1 is building, or tests are running.
   3. Workspace 3 usually ends up being [personal space](https://i.imgur.com/ELU1Vy7.jpg)
   4. Workspace 4 I use for my communication hub. It's where I keep slack, my email, and anything directly related to those interactions.
+
+## [Last Pass](https://www.lastpass.com/)
+Stop trying to remember and write down secure passwords. (Or worse, using one password for everything.) LastPass will let you remember exactly 1 very secure password to generate, store, and even systematically share passwords to all your other logins. It can even store notes like social-security numbers that you can share with your significant other so they never have to ask when filling out those beneficiary forms. It also means when going to different devices, your passwords go with you. No need to set-up all your logins again, just login to LastPass and you're good to go, and it works on mobile devices. 
