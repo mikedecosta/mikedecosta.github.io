@@ -9,7 +9,7 @@ tags: [intro, introduction]
 It's time to beef up your programming chops to be the most effective coding machine that's romanticized in movies and called out in every job posting looking for software engineers. Get massive gains from minimal effort by directing and focusing effort where it belongs. It's time to code stronger.
 
 **Ego Check Time**
-This isn't about becoming some mythical programmer who can hack into the matrix, read binary, and flip bits using [butterfly wings.][butterfly-wings]
+This isn't about becoming some mythical programmer who can hack into the matrix, read binary, and flip bits using [butterfly wings.][butterfly-wings]{:target="_blank"}
 
 This also isn't me declaring that I think I am some hot shot programmer or that I'm any better, smarter, or more talented than the average software developer.
 

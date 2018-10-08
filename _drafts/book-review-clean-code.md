@@ -65,6 +65,6 @@ Here are my main takeaways from the book as of my last reading, but you really s
     * Don't make code that is tightly coupled
 
 
-The last two chapters really need to be read through to get anything from them. Chapter 16 goes through refactoring some code and looking at how we clean code and why it's so important. Chapter 17 talks about a bunch of code smells and some personal heuristics that Robert Martin uses in his own work to stay on the path of clean code. (If you want to watch an amazing talk about code smells, please look at [*Get a Whiff of this*][get-a-whiff-of-this] given by Sandy Metz at Laracon 2016)
+The last two chapters really need to be read through to get anything from them. Chapter 16 goes through refactoring some code and looking at how we clean code and why it's so important. Chapter 17 talks about a bunch of code smells and some personal heuristics that Robert Martin uses in his own work to stay on the path of clean code. (If you want to watch an amazing talk about code smells, please look at [*Get a Whiff of this*][get-a-whiff-of-this]{:target="_blank"} given by Sandy Metz at Laracon 2016)
 
 [get-a-whiff-of-this]: https://streamacon.com/video/laracon-us-2016/sandi-metz-get-a-whiff-of-this
