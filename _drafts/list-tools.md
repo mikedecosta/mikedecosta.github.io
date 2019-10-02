@@ -28,7 +28,7 @@ So many times I sit next to another developer and they go to show me something, 
 
 Start to compartmentalize things you're working on into different workspaces. It's like having extra monitors that you can shove related stuff onto, and not worry about it when you're not working on that part, but still need it open to switch to later.
 
-Here is my current setup. I have 4 workspaces that I can easily switch to with hot-keys. Everything is contained in a virtual wrapped line of spaces. (going left to right 1, 2, 3, 4, 1, ...)
+Here is my current setup. I have 4 workspaces that I can easily switch to with hot-keys. Everything is contained in a virtual carousel of spaces. (going left to right 1, 2, 3, 4, 1, ...)
   1. Workspace 1 is my main working window. It keeps my main focus and what is most important to get done.
   2. Workspace 2 is some other side objective that I also am working on simultaneously. Maybe when workspace 1 is building, or tests are running.
   3. Workspace 3 usually ends up being [personal space](https://i.imgur.com/ELU1Vy7.jpg){:target="_blank"}

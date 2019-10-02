@@ -9,7 +9,7 @@ tags: []
 
 Review - Clean Code: A Handbook of Agile Software Craftsmanship. 
 
-This book is essential for every software engineer to read. It's been recommended at every company I've worked at. It's also one of the few software engineering books I see people reading out in public. I try and reread Clean Code every couple of years to reinforce the concepts that I've been getting lazy on. Every time I go through it, I feel as though I pick up on some new concepts and techniques that I wasn't paying attention to before at an earlier point in my career; This is why I think it's important to never let this book accumulate too much dust sitting idle on your shelf and should be revisited frequently. If you're looking to pick up this book for yourself, you can follow this affiliate link here.
+This book is essential for every software engineer to read. It's been recommended at every company I've ever worked at. It's also one of the few software engineering books I see people reading out in public. I try and reread Clean Code every couple of years to reinforce the concepts that I've been getting lazy on. Every time I go through it, I feel as though I pick up on some new concepts and techniques that I wasn't paying attention to before at an earlier point in my career; This is why I think it's important to never let this book accumulate too much dust sitting idle on your shelf and should be revisited frequently. If you're looking to pick up this book for yourself, you can follow this affiliate link here.
 
 Here are my main takeaways from the book as of my last reading, but you really should read this book yourself for the full understanding at the level you're currently at in your career.
 
