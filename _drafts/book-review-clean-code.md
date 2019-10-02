@@ -56,7 +56,7 @@ Here are my main takeaways from the book as of my last reading, but you really s
     * The code should express the intent of the program clearly
     * The number of classes and methods should be kept low, just enough to do the job
 13. Concurrency
-    * A concurrent piece code should be kept separate from a non-concurrent piece code
+    * A concurrent piece of code should be kept separate from a non-concurrent piece of code
     * You should not share objects between concurrent pieces of code
 14. Successive Refinement
     * First write dirty code, then clean it
