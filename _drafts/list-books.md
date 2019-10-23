@@ -20,4 +20,4 @@ I recommend reading and rereading this book every couple years to reinforce the
 
 ## How to Design Programs
 *An introduction to Programming and Computing*  
-This was my computer science 101 textbook and I think this is the ideal way to learn and approach software program design. This is the long road to becoming a programmer but if you have the time and patience, I would pick up this book first.
+This was my computer science 101 textbook and I think this is the ideal way to learn and approach software program design. This is the long road to becoming a programmer but if you have the time and patience, I would pick up this book first, even if just for the design recipe chapter.
