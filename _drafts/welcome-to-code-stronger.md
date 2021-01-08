@@ -2,11 +2,12 @@
 layout: post
 title:  "Welcome to Code Stronger!"
 subtitle: "Get massive gains from your code"
-date:   2019-01-01 13:01:00 -0400
+date:   2022-01-01 13:01:00 -0400
 categories: [blog, sticky]
 tags: [intro, introduction]
 ---
-It's time to beef up your programming chops to be the most effective coding machine that's romanticized in movies and called out in every job posting looking for software engineers. Get massive gains from minimal effort by directing and focusing effort where it belongs. It's time to code stronger.
+<!-- TODO Pull in descriptors from bad code job postings -->
+It's time to beef up your programming chops to be the most effective coding machine that's romanticized in movies and called out in every job posting looking for software engineers. Get massive gains from minimal effort by directing and focusing effort where it belongs. It's time to code stronger!
 
 **Ego Check Time**
 This isn't about becoming some mythical programmer who can hack into the matrix, read binary, and flip bits using [butterfly wings.][butterfly-wings]{:target="_blank"}
